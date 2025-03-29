@@ -1,0 +1,41 @@
+# Ambiente virtuale
+.venv/
+
+# Cache di Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File di log e database temporanei
+*.log
+*.sqlite3
+
+# Output di build/distribuzione
+build/
+dist/
+*.egg-info/
+
+# Report di test
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.hypothesis/
+
+# Checkpoint Jupyter
+.ipynb_checkpoints/
+
+# Configurazioni IDE/editors
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
