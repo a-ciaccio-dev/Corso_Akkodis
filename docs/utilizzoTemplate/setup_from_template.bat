@@ -19,12 +19,5 @@ if exist requirements.txt (
 )
 
 echo.
-set /p REMOVE_ORIGIN=Vuoi rimuovere il remote origin del template? (s/n): 
-if /i "%REMOVE_ORIGIN%"=="s" (
-    git remote remove origin
-    echo >> Remote origin rimosso.
-)
-
-echo.
 echo ✅ Progetto creato correttamente nella cartella "%PROJECT_NAME%"
 pause
